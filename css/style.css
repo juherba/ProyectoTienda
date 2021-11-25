@@ -1,0 +1,180 @@
+
+
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Poppins:wght@200&display=swap');
+
+/* 
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+*/
+
+/* Variables de entorno */
+
+:root {
+    --bg-color: #142F43;
+    --sec-color: #FFAB4C;
+    --ter-color: #FF5F7E;
+    --last-color: #B000B9;
+}
+
+/* Default config */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Nav config */
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+    border-bottom: 1px solid var(--sec-color);
+}
+
+.logoConfig {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logoConfig img {
+    width: 120px;
+}
+
+.logoConfig p {
+    font-size: 25px;
+}
+
+#login {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#login input{
+    padding: 3% 5%;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+
+#login button{
+    padding: 3% 5%;
+    border-radius: 50px;
+    border: 0px;
+    background-color: var(--sec-color);
+    margin-left: 5%;
+    color: white;
+    border: var(--sec-color) solid 1px;
+    cursor: pointer;
+}
+
+#login button:hover{
+    color: var(--sec-color);
+    background-color: transparent;
+    border: var(--sec-color) solid 1px;
+    transition: .5s;
+}
+
+nav {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 50px;
+    min-width: 150px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.329);
+    transition: .5s;
+}
+
+/* Header config */
+
+header {
+    background: url('../img/wallpaper.jpg') center center no-repeat fixed;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header_text {
+    background-color: #142f4383;
+    width: 40%;
+    padding: 5%;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.header_text span {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--sec-color);
+}
+
+.header_text p {
+    font-size: 1.4em;
+}
+
+/* Footer config */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: var(--sec-color);
+}
+
+.social_container {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.social_container a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    margin-left: 5%;
+}
+
+.social_container a:hover {
+    color: var(--bg-color);
+    transition: .5s;
+}

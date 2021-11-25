@@ -1,0 +1,84 @@
+@import url('style.css');
+
+/* Variables de entorno */
+
+:root {
+    --bg-color: #142F43;
+    --sec-color: #FFAB4C;
+    --ter-color: #FF5F7E;
+    --last-color: #B000B9;
+}
+
+/* Config main container */
+
+.shop_container {
+    padding: 5% 15%;
+}
+
+/* Title config */
+
+h1 {
+    color: var(--sec-color);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 2%;
+}
+
+/* Config tienda */
+
+.cards_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    border: var(--sec-color) 1px solid;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h5 {
+    font-size: 1em;
+}
+
+.card p {
+    color: var(--sec-color);
+}
+
+.card button {
+    width: 200px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: var(--sec-color);
+    color: white;
+    border: var(--sec-color) 1px solid;
+    margin-top: 5%;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: transparent;
+    color: var(--sec-color);
+    transition: .5s;
+}

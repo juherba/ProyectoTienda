@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Photoshop",
+        "precio": 69,
+        "img": "../img/software/photoshop.png"
+    },
+    {
+        "id": 2,
+        "nombre": "After Effects",
+        "precio": 89,
+        "img": "../img/software/aftereffects.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Cinema 4D",
+        "precio": 89,
+        "img": "../img/software/cinema.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Windows 11",
+        "precio": 199,
+        "img": "../img/software/windows11.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Visual Code",
+        "precio": 10000000,
+        "img": "../img/software/vscode.png"
+    },
+    {
+        "id": 6,
+        "nombre": "SHIT-OM",
+        "precio": -200,
+        "img": "../img/software/shitom.png"
+    }
+]

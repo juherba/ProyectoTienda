@@ -1,0 +1,100 @@
+@import url('style.css');
+
+
+/* Variables de entorno */
+
+:root {
+    --bg-color: #142F43;
+    --sec-color: #FFAB4C;
+    --ter-color: #FF5F7E;
+    --last-color: #B000B9;
+}
+
+/* Config main container */
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Tittle h4 config */
+
+.main_tittle {
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Table config */
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table thead tr th{
+    border-bottom: var(--sec-color) 1px solid;
+    padding: 1%;
+    color: var(--sec-color);
+    font-size: 1.2em;
+}
+
+#footer th {
+    color: var(--sec-color);
+    font-size: 1.2em;
+}
+
+/* Config carrito */
+
+
+tbody > tr > th, td{
+    border-bottom: var(--sec-color) solid 1px;
+    padding: 2%;
+    text-align: center;
+}
+
+.buttons-container button {
+    padding: 5%;
+    width: 45px;
+    font-size: 1.4em;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: #7474744f;
+    transition: .5s;
+}
+
+.btn_mas {
+    background-color: var(--sec-color);
+    margin-right: 5px;
+}
+
+.btn_menos {
+    background-color: var(--ter-color);
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#vaciar-carrito {
+    padding: 5%;
+    background-color: var(--ter-color);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin-left: 18%;
+    cursor: pointer;
+}
+
+#vaciar-carrito:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+    transition: .5s;
+}

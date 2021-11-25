@@ -1,0 +1,38 @@
+[
+    {
+        "id": 7,
+        "nombre": "RTX2070 TI Asus Rog",
+        "precio": 500,
+        "img": "../img/hardware/targetagrafica.png"
+    },
+    {
+        "id": 8,
+        "nombre": "RTX2080 TI MSI",
+        "precio": 1200,
+        "img": "../img/hardware/targetagrafica2.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Intel Core i7 9800K",
+        "precio": 169,
+        "img": "../img/hardware/cpu.png"
+    },
+    {
+        "id": 10,
+        "nombre": "ASUS Rog Z190 Gaming Plus",
+        "precio": 299,
+        "img": "../img/hardware/placabase.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Corsair Vengance RGB 8GBx2",
+        "precio": 99,
+        "img": "../img/hardware/ram.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Fuente de alimentación",
+        "precio": 500,
+        "img": "../img/hardware/alimentacion.png"
+    }
+]
